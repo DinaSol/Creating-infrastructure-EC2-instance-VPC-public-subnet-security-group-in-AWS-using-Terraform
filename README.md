@@ -38,10 +38,10 @@
 1. $ terraform init
 2. $ terraform plan
 
-to create this infrastructure use the command below: 
- $ terraform apply
+to create this infrastructure use this command : 
+ - $ terraform apply
 
-to delete this infrastructure use the command below: 
- $ terraform destroy
+to delete this infrastructure use this command: 
+-  $ terraform destroy
 
 
