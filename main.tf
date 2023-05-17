@@ -81,11 +81,11 @@ resource "aws_eip_association" "associate"{
 
 
 # upload "terraform.tfstate" file to S3 
-terraform {
-    backend "s3" {
-    bucket = "dina-bucket-tf"
-    key    = "terraform.tfstate"
-    region = "eu-west-3"
-  }
-}
+# terraform {
+#     backend "s3" {
+#     bucket = "dina-bucket-tf"
+#     key    = "terraform.tfstate"
+#     region = "eu-west-3"
+#   }
+# }
 
