@@ -1,8 +1,3 @@
-# Display the public ip of the instance 
-output "eip_value" {
-    description = "VM public IP"
-    value= aws_instance.my-instance.public_ip
-}
 
 # Display the private ip of the instance 
 output "privateIp_value" {
@@ -21,3 +16,9 @@ output "EC2_instance_name" {
     description = "instance tag"
     value= aws_instance.my-instance.tags_all
 }
+# Display the public ip of the instance 
+output "eip_value" {
+    description = "VM public IP"
+    value= aws_instance.my-instance.public_ip
+}
+
