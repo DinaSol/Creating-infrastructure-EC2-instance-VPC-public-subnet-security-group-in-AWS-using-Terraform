@@ -17,8 +17,9 @@ output "EC2_instance_name" {
     value= aws_instance.my-instance.tags_all
 }
 # Display the public ip of the instance 
-output "eip_value" {
-    description = "VM public IP"
-    value= aws_instance.my-instance.public_ip
+
+output "public_ip" {
+  value = aws_instance.my-instance.public_ip
 }
+
 
